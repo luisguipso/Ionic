@@ -1,0 +1,7 @@
+{
+  "name": "futuro",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

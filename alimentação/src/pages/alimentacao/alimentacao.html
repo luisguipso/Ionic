@@ -1,0 +1,44 @@
+<!--
+Generated template for the AlimentacaoPage page.
+
+See http://ionicframework.com/docs/components/#navigation for more info on
+Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title style='text-align: center;'>Guia Alimentar</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-slides pager>
+
+    <ion-slide style="">
+      <div class="img">
+        <img src="https://abrilveja.files.wordpress.com/2017/07/cafecc81-da-manhacc83.jpg" alt="">
+      </div>
+        <h1>Café da Manha: </h1>
+        <h2>{{menu.breakfast}}</h2>
+    </ion-slide>
+
+    <ion-slide>
+        <div class="img">
+          <img src="https://img.stpu.com.br/?img=https://s3.amazonaws.com/pu-mgr/default/a0RG000000e4LMYMA2/562929c1e4b0830bc0cf9154.jpg&w=620&h=400" alt="">
+        </div>
+        <h1>Almoço: </h1>
+      <h2>{{menu.lunch}}</h2>
+    </ion-slide>
+
+    <ion-slide>
+        <div class="img">
+          <img src="https://www.receitasdecomidas.com.br/wp-content/uploads/2016/08/receitas-jantar-420x279.jpg" alt="">
+        </div>
+        <h1>Janta: </h1>
+      <h2>{{menu.dinner}}</h2>
+    </ion-slide>
+
+  </ion-slides>
+</ion-content>
