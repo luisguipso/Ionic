@@ -7,4 +7,5 @@ export class Cadastro {
   fone:string;
   cnpj: string;
   status: boolean;
+  perfil: string;
 }
